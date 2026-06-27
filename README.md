@@ -2,7 +2,7 @@
 
 QLoRA fine-tuning of Mistral-7B-Instruct on clinical QA datasets (PubMedQA + MedQA), served through a vLLM OpenAI-compatible endpoint.
 
-## Planned approach
+## Approach
 
 ```
 PubMedQA + MedQA (Hugging Face) -> QLoRA fine-tune (4-bit NF4, r=64, lora_alpha=128)
