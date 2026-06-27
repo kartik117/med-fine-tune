@@ -17,7 +17,3 @@ QLoRA config: `r=64, lora_alpha=128, lora_dropout=0.05, target_modules=["q_proj"
 ## Planned stack
 
 PyTorch · PEFT + bitsandbytes (QLoRA) · Hugging Face Hub · vLLM · Weights & Biases · lm-evaluation-harness
-
-## Status
-
-Planned — training pipeline being scaffolded. Target: MedQA accuracy 45% (base) → 57%+ (fine-tuned), benchmarked once training is run on GPU.
