@@ -14,6 +14,6 @@ PubMedQA + MedQA (Hugging Face) -> QLoRA fine-tune (4-bit NF4, r=64, lora_alpha=
 
 QLoRA config: `r=64, lora_alpha=128, lora_dropout=0.05, target_modules=["q_proj","v_proj"]`
 
-## Planned stack
+## Stack
 
 PyTorch · PEFT + bitsandbytes (QLoRA) · Hugging Face Hub · vLLM · Weights & Biases · lm-evaluation-harness
